@@ -5,12 +5,8 @@ import sys
 
 
 def resumo_notas(notas: Iterable) -> Optional[Dict[str, float]]:
-    """
-    Recebe um iterável com notas (números ou strings convertíveis para float)
-    e retorna um dicionário com soma, média, maior, menor e quantidade.
-
-    Retorna None se nenhuma nota válida for encontrada.
-    """
+    
+    
     notas_float = []
     for n in notas:
         try:
